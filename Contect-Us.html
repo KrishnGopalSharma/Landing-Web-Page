@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #958e8e;
+        }
+
+        header {
+            background-color: #e68888;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            width: 60%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+       
+       
+        .bn31 {
+            background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+            border-radius: 40px;
+            box-sizing: border-box;
+            color: #00a84f;
+            display: block;
+            height: 50px;
+            font-size: 1.4em;
+            padding: 4px;
+            position: relative;
+            text-decoration: none;
+            width: 7em;
+            z-index: 2;
+          }
+          
+          .bn31:hover {
+            color: #fff;
+          }
+          
+          .bn31 .bn31span {
+            align-items: center;
+            background: #0e0e10;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            transition: background 0.5s ease;
+            width: 100%;
+          }
+          
+          .bn31:hover .bn31span {
+            background: transparent;
+          }
+
+         
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Contact Us</h2>
+        
+    </header>
+
+    <section>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <a class="bn31" href="./index.html"><span class="bn31span">Home</span></a>
+            
+            <a class="bn31" href="#"><span class="bn31span">Submit</span></a>
+            
+        </form>
+    </section>
+
+</body>
+</html>
